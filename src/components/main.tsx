@@ -1,12 +1,10 @@
 import React from 'react';
-import Navbar from '@/components/navbar';
 import HeroSection from '@/components/hero';
 import RewardsSection from '@/components/rewards';
 
-const HomePage: React.FC = () => {
+const MainPage = () => {
   return (
     <div>
-      <Navbar />
       <HeroSection />
       <RewardsSection />
       {/* Add other sections here as needed */}
@@ -14,4 +12,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default MainPage;
