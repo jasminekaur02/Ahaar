@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Upload, Camera } from 'lucide-react';
 import Dashboard from '@/components/dashboard'; // Import your existing Dashboard component
 import { Button } from '@/components/ui/button';
-
+import Navbar from '@/components/navbar';
 const ReceiptUploadContent = () => {
   const [file, setFile] = useState(null);
 
@@ -66,6 +66,7 @@ const ReceiptUploadContent = () => {
 const ReceiptPage = () => {
   return (
     <Dashboard>
+      <Navbar/>
       <ReceiptUploadContent />
     </Dashboard>
   );

@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
+import Navbar from '@/components/navbar';
 const Dashboard = ({ children }) => {
   return (
     <div className="flex h-screen">
+       
       {/* Sidebar */}
       <div className="hidden md:flex md:w-64 md:flex-col">
         <div className="flex flex-col flex-grow overflow-y-auto bg-green-600 text-white">
@@ -19,7 +21,7 @@ const Dashboard = ({ children }) => {
             <ul className="space-y-1">
               <li>
                 <a
-                  href="/dashboard"
+                  href="/dashboard/dashboard"
                   className="block px-4 py-4 text-sm font-medium text-white hover:bg-gray-700 rounded-lg"
                 >
                   DASHBOARD
@@ -64,10 +66,13 @@ const Dashboard = ({ children }) => {
 
       {/* Main content */}
       <div className="flex flex-col flex-1 overflow-y-auto bg-gray-100">
+        <Navbar/>
         <main className="flex-1 p-6">
           {children}
         </main>
+        
       </div>
+      
     </div>
   );
 };
