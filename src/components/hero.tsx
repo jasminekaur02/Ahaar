@@ -58,8 +58,10 @@ const HeroSection: React.FC = () => {
             />
           </div>
         </div>
+      </div>
 
-        {/* Input Methods Comparison Section */}
+      {/* Input Methods Comparison Section */}
+      <div className="bg-gray-100 py-10 sm:py-16 lg:py-24">
         <InputMethodsComparison />
       </div>
     </div>
