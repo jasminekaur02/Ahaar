@@ -38,7 +38,7 @@ const Dashboard = ({ children }) => {
               </li>
               <li>
                 <a
-                  href="/dashboard/inventory"
+                  href="/components/inventory.tsx"
                   className="block px-4 py-4 text-sm font-medium text-white hover:bg-gray-700 rounded-lg"
                 >
                   INVENTORY
