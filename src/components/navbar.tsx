@@ -1,5 +1,6 @@
-"use client" ; 
+"use client"; 
 import { useState } from 'react';
+import Link from 'next/link'; // Import Link from next/link
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,9 +13,9 @@ const Navbar = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0">
-              <a href="#" title="Logo" className="flex">
+              <Link href="/" title="Logo" className="flex">
                 <img className="w-auto h-10" src="/logo.png" alt="Logo" />
-              </a>
+              </Link>
             </div>
 
             {/* Mobile Menu Toggle Button */}
@@ -56,32 +57,32 @@ const Navbar = () => {
 
             {/* Desktop Navigation Links */}
             <div className="hidden lg:flex lg:items-center lg:justify-center lg:space-x-10">
-              <a href="#" title="Home" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+              <Link href="/" title="Home" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
                 Home
-              </a>
+              </Link>
 
-              <a href="#" title="About" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+              <Link href="/about" title="About" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
                 About
-              </a>
+              </Link>
 
-              <a href="#" title="Receiptify" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+              <Link href="/dashboard/receiptify" title="Receiptify" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
                 Receiptify
-              </a>
+              </Link>
 
-              <a href="#" title="Ahaar-Zone" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+              <Link href="/" title="Ahaar-Zone" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
                 Ahaar-Zone
-              </a>
+              </Link>
             </div>
 
             {/* Login Button */}
-            <a
+            <Link
               href="/login"
               title="Login"
               className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 text-base transition-all duration-200 hover:bg-green-300 hover:text-black focus:text-black focus:bg-green-300 font-semibold text-white bg-black rounded-full"
               role="button"
             >
               LOGIN
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -89,26 +90,26 @@ const Navbar = () => {
       {/* Mobile Navigation Links (Toggleable) */}
       <div className={`lg:hidden ${menuOpen ? 'block' : 'hidden'} absolute top-0 left-0 w-full bg-white shadow-md`}>
         <div className="flex flex-col items-center space-y-4 py-4">
-          <a href="#" title="Home" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+          <Link href="/" title="Home" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
             Home
-          </a>
-          <a href="#" title="About" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+          </Link>
+          <Link href="/about" title="About" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
             About
-          </a>
-          <a href="#" title="Receiptify" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+          </Link>
+          <Link href="/dashboardd" title="Receiptify" className="text-base text-black transition-all duration -200 hover:text-opacity-80 hover:underline">
             Receiptify
-          </a>
-          <a href="#" title="Ahaar-Zone" className="text-base text-black transition-all duration-200 hover:text-opacity-80">
+          </Link>
+          <Link href="/dashboard" title="Ahaar-Zone" className="text-base text-black transition-all duration-200 hover:text-opacity-80 hover:underline">
             Ahaar-Zone
-          </a>
-          <a
+          </Link>
+          <Link
             href="/login"
             title="Login"
             className="inline-flex items-center justify-center px-5 py-2.5 text-base transition-all duration-200 hover:bg-green-300 hover:text-black focus:text-black focus:bg-green-300 font-semibold text-white bg-black rounded-full"
             role="button"
           >
             LOGIN
-          </a>
+          </Link>
         </div>
       </div>
     </div>
