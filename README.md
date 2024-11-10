@@ -25,7 +25,7 @@ Google authenticated logins
 
 ## Why MongoDB Atlas?
 
-MongoDB Atlas was essential for "Too Good To Waste" due to its flexibility, scalability, and real-time capabilities:
+MongoDB Atlas was essential for "AHAAR" due to its flexibility, scalability, and real-time capabilities:
 1. **Document Flexibility**: Stores user data such as pantry items, expiration dates, and waste histories in a structure that aligns with user needs.
 2. **Scalability**: Supports growing data demands as the user base expands, thanks to MongoDB Atlas’ auto-scaling capabilities.
 3. **Real-Time Notifications**: Facilitates real-time notifications for expiration alerts and grocery-sharing opportunities.
