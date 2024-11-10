@@ -1,33 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AHAAR-ONE BYTE AGAINST WASTE 
+By empowering users to track pantry items, receive expiration alerts, and share excess food, this app aims to minimize food waste, reduce greenhouse gas emissions, and promote sustainable consumption habits.
 
-## Getting Started
+## Problem Statement
 
-First, run the development server:
+Household food waste contributes significantly to preventable greenhouse gas emissions (8-10%) and incurs an economic loss of over $1 trillion annually. Much of this waste occurs due to poor planning, forgotten items, and the absence of community-driven sharing solutions. **Ahaar** seeks to solve this problem by providing a comprehensive food management platform that helps users track, share, and reduce food waste effectively.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Pantry Tracking**: Users can easily catalog items in their pantry and monitor their usage.
+- **Expiry Notifications**: Receive alerts when items are nearing expiration, helping to reduce forgotten food.
+- **Waste Histories**: Track food waste trends over time, with records of items thrown away, shared, or consumed.
+- **Points System**: Earn points for reducing waste and track your sustainable food management progress.
+- **AI Integration**: Scans receipts to import items and suggest expiration dates based on item categories.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Why MongoDB Atlas?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+MongoDB Atlas was essential for "Too Good To Waste" due to its flexibility, scalability, and real-time capabilities:
+1. **Document Flexibility**: Stores user data such as pantry items, expiration dates, and waste histories in a structure that aligns with user needs.
+2. **Scalability**: Supports growing data demands as the user base expands, thanks to MongoDB Atlas’ auto-scaling capabilities.
+3. **Real-Time Notifications**: Facilitates real-time notifications for expiration alerts and grocery-sharing opportunities.
+4. **AI Integration**: Allows for machine learning features that help predict expiration dates, suggest recipes, and reward users.
+5. **Security and Reliability**: Ensures sensitive user data is secure, with automated backups and redundancy for consistent availability.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: React, NextJS , tailwind CSS , Typescript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas
+- **AI**: Integration of OCR for receipt scanning, machine learning for expiration prediction
+- **Hosting**: (Specify if deployed, e.g., Vercel for frontend, Heroku for backend)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
+
+- Node.js and npm installed
+- MongoDB Atlas account
+- [Insert any other requirements, such as Python for AI/ML modules if applicable]
+
+### Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/jasminekaur02/ahaar-FE.git
+   cd ahaar-FE
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file and add your MongoDB Atlas URI and any other required environment variables.
+   ```plaintext
+   MONGODB_URI=your-mongodb-atlas-uri
+   ```
+
+4. **Run the Application**:
+   ```bash
+   npm start
+   ```
+
+## Usage
+
+1. **Pantry Tracking**: Add items to your pantry, categorize, and set expiration dates.
+2. **Receive Notifications**: The app will alert you as items near their expiration.
+3. **View Waste History**: Access your waste history to see your progress in reducing food waste.
+4. **Earn Points**: Track your sustainability journey and earn points for reducing waste.
+
+## MongoDB Atlas Usage
+
+The app leverages MongoDB Atlas to store user-generated data, handle real-time notifications, and support machine learning features. MongoDB’s document model and scalability allow "Ahaar" to efficiently manage data related to user pantries, expiration dates, and waste tracking.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit.
+4. Open a pull request.
+
+## Future Improvements
+-**Recipe Suggestions**: Recommend recipes based on pantry items close to expiration.
+- **Recipe Suggestions**: Recommend recipes based on pantry items close to expiration.
+- **Community Waste Statistics**: Aggregate data to show community-wide impact.
+- **Enhanced Machine Learning**: Improve AI to suggest optimized storage methods for different food types.
+-**Share Excess Groceries**: Use the sharing feature to find people nearby who could use extra items.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 ## Deploy on Vercel
 
