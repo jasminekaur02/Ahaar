@@ -15,7 +15,9 @@ Household food waste contributes significantly to preventable greenhouse gas emi
 - ![WhatsApp Image 2024-11-10 at 09 36 56_0c013db7](https://github.com/user-attachments/assets/4670b971-7dae-4483-a39e-1006ce3f25e1)
 - ![WhatsApp Image 2024-11-10 at 09 38 58_a8c5eee3](https://github.com/user-attachments/assets/9eb9007e-8776-4833-81f2-ae8e9804436d)
 
+Google authenticated logins 
 
+- ![WhatsApp Image 2024-11-10 at 09 38 40_7345074d](https://github.com/user-attachments/assets/3697f07f-8d53-45b0-a487-a7f6a1f95b9c)
 
 
 ## Why MongoDB Atlas?
