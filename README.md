@@ -13,7 +13,8 @@ Household food waste contributes significantly to preventable greenhouse gas emi
 - **Points System**: Earn points for reducing waste and track your sustainable food management progress.
 - **AI Integration**: Scans receipts to import items and suggest expiration dates based on item categories.
 - ![WhatsApp Image 2024-11-10 at 09 36 56_0c013db7](https://github.com/user-attachments/assets/4670b971-7dae-4483-a39e-1006ce3f25e1)
-- ![Uploading WhatsApp Image 2024-11-10 at 09.40.13_1665ef3c.jpg…]()
+- ![WhatsApp Image 2024-11-10 at 09 38 58_a8c5eee3](https://github.com/user-attachments/assets/9eb9007e-8776-4833-81f2-ae8e9804436d)
+
 
 
 
@@ -31,8 +32,8 @@ MongoDB Atlas was essential for "Too Good To Waste" due to its flexibility, scal
 - **Frontend**: React, NextJS , tailwind CSS , Typescript
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB Atlas
-- **AI**: Integration of OCR for receipt scanning, machine learning for expiration prediction
-- 
+- **AI**: Integration of OCR for receipt scanning, GEN-AI for expiration prediction
+ 
 ## Installation
 
 ### Prerequisites
