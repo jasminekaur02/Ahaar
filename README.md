@@ -28,15 +28,13 @@ MongoDB Atlas was essential for "Too Good To Waste" due to its flexibility, scal
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB Atlas
 - **AI**: Integration of OCR for receipt scanning, machine learning for expiration prediction
-- **Hosting**: (Specify if deployed, e.g., Vercel for frontend, Heroku for backend)
-
+- 
 ## Installation
 
 ### Prerequisites
 
 - Node.js and npm installed
 - MongoDB Atlas account
-- [Insert any other requirements, such as Python for AI/ML modules if applicable]
 
 ### Steps
 
