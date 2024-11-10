@@ -57,12 +57,12 @@ MongoDB Atlas was essential for "Too Good To Waste" due to its flexibility, scal
 3. **Set Up Environment Variables**:
    Create a `.env` file and add your MongoDB Atlas URI and any other required environment variables.
    ```plaintext
-   MONGODB_URI=your-mongodb-atlas-uri
+  REACT_APP_BACKEND_URL=https://ahaar-be.vercel.app/
    ```
 
 4. **Run the Application**:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Usage
