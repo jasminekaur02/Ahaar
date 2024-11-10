@@ -19,6 +19,9 @@ Google authenticated logins
 
 - ![WhatsApp Image 2024-11-10 at 09 38 40_7345074d](https://github.com/user-attachments/assets/3697f07f-8d53-45b0-a487-a7f6a1f95b9c)
 
+- **Gamifying the AHAAR** platform with redeemable points and vouchers encourages users to adopt sustainable practices by offering tangible rewards for reducing food waste. This motivates users to actively track, share, and minimize waste, making sustainability fun and engaging.
+-  ![WhatsApp Image 2024-11-10 at 09 39 44_20ceb3eb](https://github.com/user-attachments/assets/b4c69ae7-c9f9-4a81-b45b-c6d8ae302dfc)
+
 
 ## Why MongoDB Atlas?
 
